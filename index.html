@@ -45,11 +45,10 @@ class: home
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Personl Portfolio Page.</h1>
-            <p class="lead">Coming soon.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
+						<div>
+	            <div class="door dr-left"></div>
+	            <div class="door dr-right"></div>
+						</div>
           </div>
 
           <div class="mastfoot">
@@ -71,5 +70,21 @@ class: home
     <script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/js/ie10-viewport-bug-workaround.js"></script>
+		<script>
+		$('.dr-left').click(function(){
+		    if($(this).hasClass('active')){
+		        $(this).removeClass('active')
+		    } else {
+		        $(this).addClass('active')
+		    }
+		});
+		$('.dr-right').click(function(){
+		    if($(this).hasClass('active')){
+		        $(this).removeClass('active')
+		    } else {
+		        $(this).addClass('active')
+		    }
+		});
+		</script>
   </body>
 </html>

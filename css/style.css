@@ -1,0 +1,16 @@
+.door {
+	display: inline-block;
+	height: 300px;
+	width: 150px;
+	background-color: blue;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+.dr-left.active {
+	margin-left: -30px;
+	margin-right: 30px;
+}
+.dr-right.active {
+	margin-left: 30px;
+	margin-right: -30px;
+}
