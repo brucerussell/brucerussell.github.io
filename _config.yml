@@ -1,0 +1,11 @@
+# Site settings
+auto: true
+
+exclude:
+ - .ruby-version
+ - Gemfile
+ - Gemfile.lock
+ - config
+ - public
+ - README
+ - CNAME
